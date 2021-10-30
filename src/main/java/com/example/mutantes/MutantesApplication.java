@@ -4,11 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MutantesApplication {
+class ApirestMutantApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(MutantesApplication.class, args);
+		SpringApplication.run(ApirestMutantApplication.class, args);
 	}
 
 }

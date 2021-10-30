@@ -13,9 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>detectorDeMutante</name>
 	<description>Detector de mutante en ML</description>
-	<properties>
+	<!--4properties>
 		<java.version>11</java.version>
-	</properties>
+	</properties-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -54,6 +54,12 @@
 			<groupId>org.springframework.restdocs</groupId>
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.no-hope</groupId>
+			<artifactId>springapp</artifactId>
+			<version>0.2.3</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
